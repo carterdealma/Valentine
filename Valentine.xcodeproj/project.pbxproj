@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0E70DB32B6E025000A20A39 /* CatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DB22B6E025000A20A39 /* CatApp.swift */; };
+		B0E70DB32B6E025000A20A39 /* ValentineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DB22B6E025000A20A39 /* ValentineApp.swift */; };
 		B0E70DB52B6E025000A20A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DB42B6E025000A20A39 /* ContentView.swift */; };
 		B0E70DB72B6E025400A20A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E70DB62B6E025400A20A39 /* Assets.xcassets */; };
 		B0E70DBA2B6E025400A20A39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E70DB92B6E025400A20A39 /* Preview Assets.xcassets */; };
-		B0E70DC42B6E025600A20A39 /* CatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DC32B6E025600A20A39 /* CatTests.swift */; };
-		B0E70DCE2B6E025600A20A39 /* CatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DCD2B6E025600A20A39 /* CatUITests.swift */; };
-		B0E70DD02B6E025600A20A39 /* CatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DCF2B6E025600A20A39 /* CatUITestsLaunchTests.swift */; };
+		B0E70DC42B6E025600A20A39 /* ValentineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DC32B6E025600A20A39 /* ValentineTests.swift */; };
+		B0E70DCE2B6E025600A20A39 /* ValentineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DCD2B6E025600A20A39 /* ValentineUITests.swift */; };
+		B0E70DD02B6E025600A20A39 /* ValentineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DCF2B6E025600A20A39 /* ValentineUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +34,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B0E70DAF2B6E025000A20A39 /* Cat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0E70DB22B6E025000A20A39 /* CatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatApp.swift; sourceTree = "<group>"; };
+		B0E70DAF2B6E025000A20A39 /* Valentine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valentine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E70DB22B6E025000A20A39 /* ValentineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineApp.swift; sourceTree = "<group>"; };
 		B0E70DB42B6E025000A20A39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B0E70DB62B6E025400A20A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0E70DB92B6E025400A20A39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B0E70DBF2B6E025600A20A39 /* CatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0E70DC32B6E025600A20A39 /* CatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTests.swift; sourceTree = "<group>"; };
-		B0E70DC92B6E025600A20A39 /* CatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0E70DCD2B6E025600A20A39 /* CatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatUITests.swift; sourceTree = "<group>"; };
-		B0E70DCF2B6E025600A20A39 /* CatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B0E70DBF2B6E025600A20A39 /* ValentineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValentineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E70DC32B6E025600A20A39 /* ValentineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineTests.swift; sourceTree = "<group>"; };
+		B0E70DC92B6E025600A20A39 /* ValentineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValentineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0E70DCD2B6E025600A20A39 /* ValentineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineUITests.swift; sourceTree = "<group>"; };
+		B0E70DCF2B6E025600A20A39 /* ValentineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +74,8 @@
 		B0E70DA62B6E025000A20A39 = {
 			isa = PBXGroup;
 			children = (
-				B0E70DB12B6E025000A20A39 /* Cat */,
-				B0E70DC22B6E025600A20A39 /* CatTests */,
+				B0E70DB12B6E025000A20A39 /* Valentine */,
+				B0E70DC22B6E025600A20A39 /* ValentineTests */,
 				B0E70DCC2B6E025600A20A39 /* CatUITests */,
 				B0E70DB02B6E025000A20A39 /* Products */,
 			);
@@ -84,22 +84,22 @@
 		B0E70DB02B6E025000A20A39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0E70DAF2B6E025000A20A39 /* Cat.app */,
-				B0E70DBF2B6E025600A20A39 /* CatTests.xctest */,
-				B0E70DC92B6E025600A20A39 /* CatUITests.xctest */,
+				B0E70DAF2B6E025000A20A39 /* Valentine.app */,
+				B0E70DBF2B6E025600A20A39 /* ValentineTests.xctest */,
+				B0E70DC92B6E025600A20A39 /* ValentineUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B0E70DB12B6E025000A20A39 /* Cat */ = {
+		B0E70DB12B6E025000A20A39 /* Valentine */ = {
 			isa = PBXGroup;
 			children = (
-				B0E70DB22B6E025000A20A39 /* CatApp.swift */,
+				B0E70DB22B6E025000A20A39 /* ValentineApp.swift */,
 				B0E70DB42B6E025000A20A39 /* ContentView.swift */,
 				B0E70DB62B6E025400A20A39 /* Assets.xcassets */,
 				B0E70DB82B6E025400A20A39 /* Preview Content */,
 			);
-			path = Cat;
+			path = Valentine;
 			sourceTree = "<group>";
 		};
 		B0E70DB82B6E025400A20A39 /* Preview Content */ = {
@@ -110,19 +110,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B0E70DC22B6E025600A20A39 /* CatTests */ = {
+		B0E70DC22B6E025600A20A39 /* ValentineTests */ = {
 			isa = PBXGroup;
 			children = (
-				B0E70DC32B6E025600A20A39 /* CatTests.swift */,
+				B0E70DC32B6E025600A20A39 /* ValentineTests.swift */,
 			);
-			path = CatTests;
+			path = ValentineTests;
 			sourceTree = "<group>";
 		};
 		B0E70DCC2B6E025600A20A39 /* CatUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B0E70DCD2B6E025600A20A39 /* CatUITests.swift */,
-				B0E70DCF2B6E025600A20A39 /* CatUITestsLaunchTests.swift */,
+				B0E70DCD2B6E025600A20A39 /* ValentineUITests.swift */,
+				B0E70DCF2B6E025600A20A39 /* ValentineUITestsLaunchTests.swift */,
 			);
 			path = CatUITests;
 			sourceTree = "<group>";
@@ -130,9 +130,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0E70DAE2B6E025000A20A39 /* Cat */ = {
+		B0E70DAE2B6E025000A20A39 /* Valentine */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0E70DD32B6E025600A20A39 /* Build configuration list for PBXNativeTarget "Cat" */;
+			buildConfigurationList = B0E70DD32B6E025600A20A39 /* Build configuration list for PBXNativeTarget "Valentine" */;
 			buildPhases = (
 				B0E70DAB2B6E025000A20A39 /* Sources */,
 				B0E70DAC2B6E025000A20A39 /* Frameworks */,
@@ -142,14 +142,14 @@
 			);
 			dependencies = (
 			);
-			name = Cat;
+			name = Valentine;
 			productName = Cat;
-			productReference = B0E70DAF2B6E025000A20A39 /* Cat.app */;
+			productReference = B0E70DAF2B6E025000A20A39 /* Valentine.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B0E70DBE2B6E025600A20A39 /* CatTests */ = {
+		B0E70DBE2B6E025600A20A39 /* ValentineTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0E70DD62B6E025600A20A39 /* Build configuration list for PBXNativeTarget "CatTests" */;
+			buildConfigurationList = B0E70DD62B6E025600A20A39 /* Build configuration list for PBXNativeTarget "ValentineTests" */;
 			buildPhases = (
 				B0E70DBB2B6E025600A20A39 /* Sources */,
 				B0E70DBC2B6E025600A20A39 /* Frameworks */,
@@ -160,14 +160,14 @@
 			dependencies = (
 				B0E70DC12B6E025600A20A39 /* PBXTargetDependency */,
 			);
-			name = CatTests;
+			name = ValentineTests;
 			productName = CatTests;
-			productReference = B0E70DBF2B6E025600A20A39 /* CatTests.xctest */;
+			productReference = B0E70DBF2B6E025600A20A39 /* ValentineTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B0E70DC82B6E025600A20A39 /* CatUITests */ = {
+		B0E70DC82B6E025600A20A39 /* ValentineUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0E70DD92B6E025600A20A39 /* Build configuration list for PBXNativeTarget "CatUITests" */;
+			buildConfigurationList = B0E70DD92B6E025600A20A39 /* Build configuration list for PBXNativeTarget "ValentineUITests" */;
 			buildPhases = (
 				B0E70DC52B6E025600A20A39 /* Sources */,
 				B0E70DC62B6E025600A20A39 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				B0E70DCB2B6E025600A20A39 /* PBXTargetDependency */,
 			);
-			name = CatUITests;
+			name = ValentineUITests;
 			productName = CatUITests;
-			productReference = B0E70DC92B6E025600A20A39 /* CatUITests.xctest */;
+			productReference = B0E70DC92B6E025600A20A39 /* ValentineUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0E70DAA2B6E025000A20A39 /* Build configuration list for PBXProject "Cat" */;
+			buildConfigurationList = B0E70DAA2B6E025000A20A39 /* Build configuration list for PBXProject "Valentine" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +219,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0E70DAE2B6E025000A20A39 /* Cat */,
-				B0E70DBE2B6E025600A20A39 /* CatTests */,
-				B0E70DC82B6E025600A20A39 /* CatUITests */,
+				B0E70DAE2B6E025000A20A39 /* Valentine */,
+				B0E70DBE2B6E025600A20A39 /* ValentineTests */,
+				B0E70DC82B6E025600A20A39 /* ValentineUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0E70DB52B6E025000A20A39 /* ContentView.swift in Sources */,
-				B0E70DB32B6E025000A20A39 /* CatApp.swift in Sources */,
+				B0E70DB32B6E025000A20A39 /* ValentineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E70DC42B6E025600A20A39 /* CatTests.swift in Sources */,
+				B0E70DC42B6E025600A20A39 /* ValentineTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E70DCE2B6E025600A20A39 /* CatUITests.swift in Sources */,
-				B0E70DD02B6E025600A20A39 /* CatUITestsLaunchTests.swift in Sources */,
+				B0E70DCE2B6E025600A20A39 /* ValentineUITests.swift in Sources */,
+				B0E70DD02B6E025600A20A39 /* ValentineUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +284,12 @@
 /* Begin PBXTargetDependency section */
 		B0E70DC12B6E025600A20A39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0E70DAE2B6E025000A20A39 /* Cat */;
+			target = B0E70DAE2B6E025000A20A39 /* Valentine */;
 			targetProxy = B0E70DC02B6E025600A20A39 /* PBXContainerItemProxy */;
 		};
 		B0E70DCB2B6E025600A20A39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B0E70DAE2B6E025000A20A39 /* Cat */;
+			target = B0E70DAE2B6E025000A20A39 /* Valentine */;
 			targetProxy = B0E70DCA2B6E025600A20A39 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +421,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Cat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Valentine/Preview Content\"";
+				DEVELOPMENT_TEAM = CNJTRAU6N3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -449,7 +450,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Cat/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Valentine/Preview Content\"";
+				DEVELOPMENT_TEAM = CNJTRAU6N3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -485,7 +487,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valentine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Valentine";
 			};
 			name = Debug;
 		};
@@ -504,7 +506,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cat";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Valentine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Valentine";
 			};
 			name = Release;
 		};
@@ -545,7 +547,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0E70DAA2B6E025000A20A39 /* Build configuration list for PBXProject "Cat" */ = {
+		B0E70DAA2B6E025000A20A39 /* Build configuration list for PBXProject "Valentine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0E70DD12B6E025600A20A39 /* Debug */,
@@ -554,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0E70DD32B6E025600A20A39 /* Build configuration list for PBXNativeTarget "Cat" */ = {
+		B0E70DD32B6E025600A20A39 /* Build configuration list for PBXNativeTarget "Valentine" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0E70DD42B6E025600A20A39 /* Debug */,
@@ -563,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0E70DD62B6E025600A20A39 /* Build configuration list for PBXNativeTarget "CatTests" */ = {
+		B0E70DD62B6E025600A20A39 /* Build configuration list for PBXNativeTarget "ValentineTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0E70DD72B6E025600A20A39 /* Debug */,
@@ -572,7 +574,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0E70DD92B6E025600A20A39 /* Build configuration list for PBXNativeTarget "CatUITests" */ = {
+		B0E70DD92B6E025600A20A39 /* Build configuration list for PBXNativeTarget "ValentineUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0E70DDA2B6E025600A20A39 /* Debug */,
