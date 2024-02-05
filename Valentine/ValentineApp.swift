@@ -11,7 +11,7 @@ import SwiftUI
 struct ValentineApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            QuestionView()
         }
     }
 }

@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B084821B2B70697200C96602 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B084821A2B70697200C96602 /* EndView.swift */; };
+		B08482322B70AB4300C96602 /* Robusta Show.otf in Resources */ = {isa = PBXBuildFile; fileRef = B08482312B70AB4300C96602 /* Robusta Show.otf */; };
+		B08482352B70AE3A00C96602 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = B08482342B70AE3A00C96602 /* FLAnimatedImage */; };
 		B0E70DB32B6E025000A20A39 /* ValentineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DB22B6E025000A20A39 /* ValentineApp.swift */; };
-		B0E70DB52B6E025000A20A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DB42B6E025000A20A39 /* ContentView.swift */; };
+		B0E70DB52B6E025000A20A39 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DB42B6E025000A20A39 /* QuestionView.swift */; };
 		B0E70DB72B6E025400A20A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E70DB62B6E025400A20A39 /* Assets.xcassets */; };
 		B0E70DBA2B6E025400A20A39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0E70DB92B6E025400A20A39 /* Preview Assets.xcassets */; };
 		B0E70DC42B6E025600A20A39 /* ValentineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E70DC32B6E025600A20A39 /* ValentineTests.swift */; };
@@ -34,9 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B084821A2B70697200C96602 /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
+		B084821D2B708FBD00C96602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B08482302B70A72100C96602 /* mocha1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mocha1.gif; sourceTree = "<group>"; };
+		B08482312B70AB4300C96602 /* Robusta Show.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Robusta Show.otf"; sourceTree = "<group>"; };
 		B0E70DAF2B6E025000A20A39 /* Valentine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valentine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E70DB22B6E025000A20A39 /* ValentineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineApp.swift; sourceTree = "<group>"; };
-		B0E70DB42B6E025000A20A39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B0E70DB42B6E025000A20A39 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 		B0E70DB62B6E025400A20A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0E70DB92B6E025400A20A39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B0E70DBF2B6E025600A20A39 /* ValentineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValentineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B08482352B70AE3A00C96602 /* FLAnimatedImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +102,12 @@
 		B0E70DB12B6E025000A20A39 /* Valentine */ = {
 			isa = PBXGroup;
 			children = (
+				B08482312B70AB4300C96602 /* Robusta Show.otf */,
+				B08482302B70A72100C96602 /* mocha1.gif */,
+				B084821D2B708FBD00C96602 /* Info.plist */,
 				B0E70DB22B6E025000A20A39 /* ValentineApp.swift */,
-				B0E70DB42B6E025000A20A39 /* ContentView.swift */,
+				B0E70DB42B6E025000A20A39 /* QuestionView.swift */,
+				B084821A2B70697200C96602 /* EndView.swift */,
 				B0E70DB62B6E025400A20A39 /* Assets.xcassets */,
 				B0E70DB82B6E025400A20A39 /* Preview Content */,
 			);
@@ -143,6 +155,9 @@
 			dependencies = (
 			);
 			name = Valentine;
+			packageProductDependencies = (
+				B08482342B70AE3A00C96602 /* FLAnimatedImage */,
+			);
 			productName = Cat;
 			productReference = B0E70DAF2B6E025000A20A39 /* Valentine.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +230,9 @@
 				Base,
 			);
 			mainGroup = B0E70DA62B6E025000A20A39;
+			packageReferences = (
+				B08482332B70AE3900C96602 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */,
+			);
 			productRefGroup = B0E70DB02B6E025000A20A39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +251,7 @@
 			files = (
 				B0E70DBA2B6E025400A20A39 /* Preview Assets.xcassets in Resources */,
 				B0E70DB72B6E025400A20A39 /* Assets.xcassets in Resources */,
+				B08482322B70AB4300C96602 /* Robusta Show.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +276,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0E70DB52B6E025000A20A39 /* ContentView.swift in Sources */,
+				B084821B2B70697200C96602 /* EndView.swift in Sources */,
+				B0E70DB52B6E025000A20A39 /* QuestionView.swift in Sources */,
 				B0E70DB32B6E025000A20A39 /* ValentineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,6 +445,7 @@
 				DEVELOPMENT_TEAM = CNJTRAU6N3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Valentine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -454,6 +475,7 @@
 				DEVELOPMENT_TEAM = CNJTRAU6N3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Valentine/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -584,6 +606,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B08482332B70AE3900C96602 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Flipboard/FLAnimatedImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.17;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B08482342B70AE3A00C96602 /* FLAnimatedImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B08482332B70AE3900C96602 /* XCRemoteSwiftPackageReference "FLAnimatedImage" */;
+			productName = FLAnimatedImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B0E70DA72B6E025000A20A39 /* Project object */;
 }
