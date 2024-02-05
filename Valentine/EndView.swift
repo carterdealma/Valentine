@@ -12,6 +12,7 @@ struct EndView: View {
     @State private var fontColor : Color = Color("fontColor")
     
     var body: some View {
+        AnimatedImageView(fileName: "mocha1")
         ZStack
         {
             Color("backgroundColor")
