@@ -81,13 +81,13 @@ struct QuestionView: View {
         }
         else if (noButtonClickedCount == 10)
         {
-            noButtonText = "come on darling"
+            noButtonText = "sofia pls"
             yesButtonFont = .custom(fontName, size: 85)
             noButtonFont = .custom(fontName, size: 15)
         }
         else if (noButtonClickedCount == 11)
         {
-            noButtonText = "pretty pls"
+            noButtonText = "pls"
             yesButtonFont = .custom(fontName, size: 90)
             noButtonFont = .custom(fontName, size: 14)
         }
@@ -106,6 +106,22 @@ struct QuestionView: View {
         ZStack {
             Color("backgroundColor")
                 .ignoresSafeArea()
+            if (noButtonClickedCount == 0)
+            {
+                GIFView(type: .url(URL(string: "https://media.tenor.com/cWyonpnv_psAAAAi/mocha.gif")!))
+                    .frame(maxHeight: 250)
+                    .frame(maxWidth: 250)
+                    .offset(x:0, y:-230)
+                    .padding()
+            }
+            else
+            {
+                GIFView(type: .url(URL(string: "https://media.tenor.com/mNO8aMW3GB8AAAAi/milk-and-mocha-mocha.gif")!))
+                    .frame(maxHeight: 250)
+                    .frame(maxWidth: 250)
+                    .offset(x:0, y:-250)
+                    .padding()
+            }
             VStack {
                     Text("Will you be my Valentine ?")
                         .font(.custom(fontName, size: 40))
@@ -114,6 +130,7 @@ struct QuestionView: View {
                         .shadow(color: .black, radius: 0.6)
                         .shadow(color: .black, radius: 0.6)
                         .shadow(color: .black, radius: 0.6)
+                        .offset(x: 0, y: 20)
                     HStack
                     {
                         NavigationLink(destination: EndView().navigationBarBackButtonHidden(true))
@@ -132,6 +149,7 @@ struct QuestionView: View {
                         .shadow(color: .black, radius: 0.6)
                         .shadow(color: .black, radius: 0.6)
                         .shadow(color: .black, radius: 0.6)
+                        .offset(x: 0, y: 20)
 
                         if(noButtonClickedCount < 13)
                         {
@@ -151,6 +169,7 @@ struct QuestionView: View {
                             .shadow(color: .black, radius: 0.6)
                             .shadow(color: .black, radius: 0.6)
                             .shadow(color: .black, radius: 0.6)
+                            .offset(x: 0, y: 20)
                         }
                         else
                         {
@@ -170,6 +189,7 @@ struct QuestionView: View {
                             .shadow(color: .black, radius: 0.6)
                             .shadow(color: .black, radius: 0.6)
                             .shadow(color: .black, radius: 0.6)
+                            .offset(x: 0, y: 20)
                         }
                     }
                     .buttonStyle(.bordered)

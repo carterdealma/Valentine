@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B06370C22B70B9AB0098364C /* AnimatedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06370C12B70B9AB0098364C /* AnimatedImageView.swift */; };
+		B07695592B716C6400C6BEC7 /* GIFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07695582B716C6400C6BEC7 /* GIFView.swift */; };
+		B076955B2B716CA400C6BEC7 /* URLType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076955A2B716CA400C6BEC7 /* URLType.swift */; };
+		B076955D2B717B9F00C6BEC7 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076955C2B717B9F00C6BEC7 /* StartView.swift */; };
+		B076955F2B71EB9700C6BEC7 /* CatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B076955E2B71EB9700C6BEC7 /* CatView.swift */; };
 		B084821B2B70697200C96602 /* EndView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B084821A2B70697200C96602 /* EndView.swift */; };
 		B08482322B70AB4300C96602 /* Robusta Show.otf in Resources */ = {isa = PBXBuildFile; fileRef = B08482312B70AB4300C96602 /* Robusta Show.otf */; };
 		B08482352B70AE3A00C96602 /* FLAnimatedImage in Frameworks */ = {isa = PBXBuildFile; productRef = B08482342B70AE3A00C96602 /* FLAnimatedImage */; };
@@ -38,10 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B06370C12B70B9AB0098364C /* AnimatedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedImageView.swift; sourceTree = "<group>"; };
+		B07695582B716C6400C6BEC7 /* GIFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GIFView.swift; sourceTree = "<group>"; };
+		B076955A2B716CA400C6BEC7 /* URLType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLType.swift; sourceTree = "<group>"; };
+		B076955C2B717B9F00C6BEC7 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		B076955E2B71EB9700C6BEC7 /* CatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatView.swift; sourceTree = "<group>"; };
 		B084821A2B70697200C96602 /* EndView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndView.swift; sourceTree = "<group>"; };
 		B084821D2B708FBD00C96602 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		B08482302B70A72100C96602 /* mocha1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = mocha1.gif; sourceTree = "<group>"; };
 		B08482312B70AB4300C96602 /* Robusta Show.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Robusta Show.otf"; sourceTree = "<group>"; };
 		B0E70DAF2B6E025000A20A39 /* Valentine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Valentine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0E70DB22B6E025000A20A39 /* ValentineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValentineApp.swift; sourceTree = "<group>"; };
@@ -105,14 +110,16 @@
 			isa = PBXGroup;
 			children = (
 				B08482312B70AB4300C96602 /* Robusta Show.otf */,
-				B08482302B70A72100C96602 /* mocha1.gif */,
 				B084821D2B708FBD00C96602 /* Info.plist */,
 				B0E70DB22B6E025000A20A39 /* ValentineApp.swift */,
+				B076955C2B717B9F00C6BEC7 /* StartView.swift */,
+				B076955E2B71EB9700C6BEC7 /* CatView.swift */,
 				B0E70DB42B6E025000A20A39 /* QuestionView.swift */,
 				B084821A2B70697200C96602 /* EndView.swift */,
-				B06370C12B70B9AB0098364C /* AnimatedImageView.swift */,
 				B0E70DB62B6E025400A20A39 /* Assets.xcassets */,
 				B0E70DB82B6E025400A20A39 /* Preview Content */,
+				B07695582B716C6400C6BEC7 /* GIFView.swift */,
+				B076955A2B716CA400C6BEC7 /* URLType.swift */,
 			);
 			path = Valentine;
 			sourceTree = "<group>";
@@ -279,10 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B076955B2B716CA400C6BEC7 /* URLType.swift in Sources */,
 				B084821B2B70697200C96602 /* EndView.swift in Sources */,
+				B076955F2B71EB9700C6BEC7 /* CatView.swift in Sources */,
+				B07695592B716C6400C6BEC7 /* GIFView.swift in Sources */,
+				B076955D2B717B9F00C6BEC7 /* StartView.swift in Sources */,
 				B0E70DB52B6E025000A20A39 /* QuestionView.swift in Sources */,
 				B0E70DB32B6E025000A20A39 /* ValentineApp.swift in Sources */,
-				B06370C22B70B9AB0098364C /* AnimatedImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

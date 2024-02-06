@@ -38,6 +38,6 @@ struct AnimatedImageView: UIViewRepresentable{
     }
 }
 
-//#Preview {
-//    AnimatedImageView()
-//}
+#Preview {
+    AnimatedImageView(fileName: "mocha1")
+}
